@@ -1,2 +1,5 @@
 node_modules
 .cache
+public/page-data
+public/static
+public/render-page.js.map
