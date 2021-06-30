@@ -28,10 +28,12 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="boxed-wrapper">
+    <div className="boxed_wrapper">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main>
-        {children}
+        <div className="boxed_wrapper">
+          {children}
+        </div>
       </main>
       <Footer />
       <ExternalJS />
